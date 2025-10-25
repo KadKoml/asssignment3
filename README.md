@@ -147,3 +147,17 @@ To execute and reproduce results:
 ```bash
 mvn compile
 java -cp target/classes mst.Main input_small.json output_small.json
+```
+---
+
+## BONUS: Graph Design and Visualization
+As part of the bonus task, custom `Graph` and `Edge` classes were implemented and directly integrated with both Prim’s and Kruskal’s algorithms.  
+Below are example visualizations created in **Graphviz Online**, showing how the graph structures are represented and processed by the MST algorithms.
+
+| Example | Visualization |
+|----------|----------------|
+| Small Graph (5 nodes) | ![Small Graph](graph_small.png) |
+| Medium Graph (20 nodes) | ![Medium Graph](graph_medium.png) |
+| Large Graph (35 nodes) | ![Large Graph](graph_large.png) |
+
+These examples illustrate that the graph structure loads correctly, is visually consistent, and integrates properly with the MST computation logic in Java.
